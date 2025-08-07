@@ -125,17 +125,17 @@ const RegisterPage = () => {
 
 
                     <label>Senha:</label>
-                    <div className="teste">
+                    <div>
                         <input type={showPassword ? "text" : "password"} id='password' name='password' value={dataForm.password} onChange={handleChange} className={errors.password ? 'input-error' : ''} />
-                        <button type="button" className='showPassword-button' onClick={handleShowPassword}>{showPassword ? <FaEye size="20" /> : <FaEyeSlash size="20" />}</button>
+                        <button type="button" className='showPassword-button' onClick={handleShowPassword}>{showPassword ? <FaEye size="20"/> : <FaEyeSlash size="20"/>}</button>
                     </div>
                     {errors.password && <p className='error-message'>{errors.password}</p>}
 
                     <label>Confirme a Senha:</label>
 
-                    <div className="teste">
+                    <div>
                         <input type={showConfirmPassword ? "text" : "password"} id='confirmPassword' name='confirmPassword' value={dataForm.confirmPassword} onChange={handleChange} className={errors.confirmPassword ? 'input-error' : ''} />
-                        <button type="button" className='showPassword-button' onClick={handleShowConfirmPassword}>{showConfirmPassword ? <FaEye size="20" /> : <FaEyeSlash size="20" />}</button>
+                        <button type="button" className='showPassword-button' onClick={handleShowConfirmPassword}>{showConfirmPassword ? <FaEye size="20"/> : <FaEyeSlash size="20"/>}</button>
                     </div>
                     {errors.confirmPassword && <p className='error-message'>{errors.confirmPassword}</p>}
 
@@ -144,7 +144,7 @@ const RegisterPage = () => {
                     {sucessMessage && <p> {sucessMessage}</p>}
 
                     <div className='icons'>
-                        <a href="https://github.com/LucassSN" className="icon"><FaGithub size="25" /></a>
+                        <a href="https://github.com/LucassSN" className="icon"><FaGithub size="30" /></a>
 
                     </div>
 

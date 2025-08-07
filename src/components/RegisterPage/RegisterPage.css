@@ -4,6 +4,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgba(0, 0, 0, 0.377);
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    width:400px;
+    border-radius: 15px;
 }
 
 .form {
@@ -13,18 +20,30 @@
     
 }
 
-.submit-button{
-    margin-top:10px;
+h1{
+    text-align: center;
 }
-.icons{
+
+
+.icons a{
+    display:flex;
+    justify-content: center;
     margin-top: 10px;
-    color:black;
+    color: black;
+    transition: 0.5s;
+    margin-bottom:50px;
+}
+.icons a:hover{
+    color: blue;
 }
 
 
-.error-message{
-    color:red;
-    margin-top: 5px;
+.error-message {
+  color: yellow;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
 }
 
 .links a{
@@ -37,6 +56,55 @@
 
 }
 .links a:hover{
+    color:gray;
+}
+
+
+
+input {
+  width: 100%; 
+  padding: 12px 15px; 
+  margin: 8px 0;
+  border: 1px solid #ccc; 
+  box-sizing: border-box; 
+  border-radius: 4px; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  transition: 0.3;
+}
+
+input:focus {
+  border-color: #007bff;
+  outline: none; 
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+
+
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.submit-button:hover {
+  background-color: #0056b3; 
+}
+.submit-button:active {
+  transform: scale(0.98);
+  background-color: #004085;
+}
+
+button FaEye{
     color:red;
 }
+
+
+
 
