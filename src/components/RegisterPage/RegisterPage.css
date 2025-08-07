@@ -1,0 +1,42 @@
+.form-container {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.submit-button{
+    margin-top:10px;
+}
+.icons{
+    margin-top: 10px;
+    color:black;
+}
+
+
+.error-message{
+    color:red;
+    margin-top: 5px;
+}
+
+.links a{
+    padding: 3px;
+    color:black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+
+}
+.links a:hover{
+    color:red;
+}
+
