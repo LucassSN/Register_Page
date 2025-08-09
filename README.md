@@ -1,1 +1,1 @@
-Criando uma pagina de resistro em React
+Criando uma pagina de registro em React
