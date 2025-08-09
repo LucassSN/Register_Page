@@ -1,40 +1,41 @@
 .form-container {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.377);
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    width:400px;
-    border-radius: 15px;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.377);
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 400px;
+  border-radius: 15px;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
 
-.icons a{
-    display:flex;
-    justify-content: center;
-    margin-top: 10px;
-    color: black;
-    transition: 0.5s;
-    margin-bottom:50px;
+.icons a {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  color: black;
+  transition: 0.5s;
+  margin-bottom: 50px;
 }
-.icons a:hover{
-    color: blue;
+
+.icons a:hover {
+  color: blue;
 }
 
 
@@ -46,34 +47,38 @@ h1{
   margin-top: 10px;
 }
 
-.links{
-    color:black;
-    text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    transition: 0.5s;
-    text-align: right;
+.links {
+
+
+
+  text-align: right;
 
 }
 
 .links a {
-    padding: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: black;
+  padding: 3px;
+  transition: 0.5s;
+  text-decoration: none;
 
 }
-.links a:hover{
-    color:gray;
-    
+
+.links a:hover {
+  color: gray;
+
 }
 
 
 
 input {
-  width: 100%; 
-  padding: 12px 15px; 
+  width: 100%;
+  padding: 12px 15px;
   margin: 8px 0;
-  border: 1px solid #ccc; 
-  box-sizing: border-box; 
-  border-radius: 4px; 
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   transition: 0.3;
@@ -81,8 +86,8 @@ input {
 
 input:focus {
   border-color: #007bff;
-  outline: none; 
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
 
@@ -99,15 +104,12 @@ input:focus {
   cursor: pointer;
   transition: 0.3s;
 }
+
 .submit-button:hover {
-  background-color: #0056b3; 
+  background-color: #0056b3;
 }
+
 .submit-button:active {
   transform: scale(0.98);
   background-color: #004085;
 }
-
-
-
-
-
